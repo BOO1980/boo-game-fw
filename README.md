@@ -12,3 +12,9 @@
 12: installed webpack-dev-server
 13: error:  Failed to load 'C:\Repos\boo-game-fw\webpack.config.dev.js' config
 14: error: ReferenceError: DistCopyPlugin is not defined
+15: added DistCopyWebpackPlugin.js
+16: referenced DistCopyWebpackPlugin in webpack.config.dev.js
+17: added constructor to DistCopyWebpackPlugin.js
+18: exported DistCopyPlugin;
+19: error: configuration.plugins[1] misses the property 'apply'.
+20: added apply function to DistCopyPlugin
