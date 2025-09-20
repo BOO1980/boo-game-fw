@@ -22,3 +22,5 @@
 22: error: [webpack-dev-middleware] ReferenceError: fileCopy is not defined
 23: added fileCopy.js
 24: error: [webpack-dev-middleware] ReferenceError: copydir is not defined
+25: added "copy-dir": "^1.3.0", to package.json
+26: reinstall npm
