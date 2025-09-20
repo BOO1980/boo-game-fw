@@ -24,3 +24,5 @@
 24: error: [webpack-dev-middleware] ReferenceError: copydir is not defined
 25: added "copy-dir": "^1.3.0", to package.json
 26: reinstall npm
+27: Error: ENOENT: no such file or directory, lstat 'C:\Repos\boo-game-fw\dist'
+28: added folder called dist
