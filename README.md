@@ -26,3 +26,7 @@
 26: reinstall npm
 27: Error: ENOENT: no such file or directory, lstat 'C:\Repos\boo-game-fw\dist'
 28: added folder called dist
+29: added index.js to honeyboo folder
+30: add entry data to webpack.config.dev.js
+31: add output data to webpack.config.dev.js
+32: npm start: this will create a folder on game local
