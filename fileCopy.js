@@ -1,3 +1,4 @@
+const copydir = require("copy-dir");
 class fileCopy {
     constructor(target) {
         console.log("fileCopy - constructor", target);

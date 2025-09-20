@@ -21,3 +21,4 @@
 21: defined options in constuctor of DistCopyPlugin
 22: error: [webpack-dev-middleware] ReferenceError: fileCopy is not defined
 23: added fileCopy.js
+24: error: [webpack-dev-middleware] ReferenceError: copydir is not defined
