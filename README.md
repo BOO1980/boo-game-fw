@@ -18,3 +18,5 @@
 18: exported DistCopyPlugin;
 19: error: configuration.plugins[1] misses the property 'apply'.
 20: added apply function to DistCopyPlugin
+21: defined options in constuctor of DistCopyPlugin
+22: error: [webpack-dev-middleware] ReferenceError: fileCopy is not defined

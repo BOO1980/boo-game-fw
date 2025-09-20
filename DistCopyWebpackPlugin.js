@@ -2,6 +2,13 @@
 class DistCopyPlugin {
     constructor(options) {
         console.log("constructor", options);
+        this.options = options;
+
+        if (this.options.target !== "") {
+            console.log(
+                "********DistCopyPlugin - Custom webpack plugin Initialized "
+            );
+        }
     }
     apply(compiler) {
         console.log("********DistCopyPlugin - apply Started... ");
