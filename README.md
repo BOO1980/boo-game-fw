@@ -20,3 +20,4 @@
 20: added apply function to DistCopyPlugin
 21: defined options in constuctor of DistCopyPlugin
 22: error: [webpack-dev-middleware] ReferenceError: fileCopy is not defined
+23: added fileCopy.js

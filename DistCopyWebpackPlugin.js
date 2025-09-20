@@ -1,4 +1,5 @@
 //https://webpack.js.org/plugins/copy-webpack-plugin/
+const fileCopy = require("./fileCopy");
 class DistCopyPlugin {
     constructor(options) {
         console.log("constructor", options);
