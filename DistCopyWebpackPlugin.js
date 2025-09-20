@@ -1,8 +1,10 @@
 //https://webpack.js.org/plugins/copy-webpack-plugin/
-const fileCopy = require("./fileCopy");
+const fileCopy = require("./fileCopy.js");
+
 class DistCopyPlugin {
     constructor(options) {
         console.log("constructor", options);
+
         this.options = options;
 
         if (this.options.target !== "") {
@@ -11,6 +13,7 @@ class DistCopyPlugin {
             );
         }
     }
+
     apply(compiler) {
         console.log("********DistCopyPlugin - apply Started... ");
         compiler.hooks.done.tap("DistCopyPlugin", (stats) => {
@@ -22,4 +25,5 @@ class DistCopyPlugin {
         });
     }
 }
+
 module.exports = DistCopyPlugin;
