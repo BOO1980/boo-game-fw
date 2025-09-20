@@ -1,0 +1,17 @@
+{
+    "name": "booPot",
+    "version": "0.0.0",
+    "description": "Hayley Boo Game Framework",
+    "main": "game.js",
+    "scripts": {
+
+    },
+
+    "standard-version": {
+
+    },
+    "author": "Hayley Boo",
+    "license": "ISC",
+    "devDependencies": {
+    }
+}
