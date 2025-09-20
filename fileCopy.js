@@ -1,10 +1,13 @@
 const copydir = require("copy-dir");
+
+const target = "";
+
 class fileCopy {
     constructor(target) {
         console.log("fileCopy - constructor", target);
         this.src = "./dist";
-        this.target = target;
-        this.copyFiles(this.src, this.target);
+        this.target = target; // "D:\\Repos\\brightlightcity\\honeypot";
+        this.copy(this.src, this.target);
     }
 
     copyFiles(src, target) {
@@ -29,5 +32,4 @@ class fileCopy {
         );
     }
 }
-
 module.exports = fileCopy;
